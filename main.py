@@ -1,6 +1,3 @@
-A,B = map(int, input().split())
-print(A+B)
-print(A-B)
-print(A*B)
-print(A//B)
-print(A%B)
+A,I = map(int, input().split())
+M = A*(I-1)+1
+print(M)
