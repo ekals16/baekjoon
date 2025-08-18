@@ -1,5 +1,5 @@
-K,N,M = map(int, input().split())
-if K*N > M:
-    print(K*N-M)
+N,M = map(int, input().split())
+if ( N,M>=0 or N,M<=0 ) and N<M:
+    print(M-N)
 else:
-    print(0)
+    print(N-M)
