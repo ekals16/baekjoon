@@ -1,3 +1,5 @@
-n = int(input())
-ans = n*(n+1) // 2
-print(ans)
+K,N,M = map(int, input().split())
+if K*N > M:
+    print(K*N-M)
+else:
+    print(0)
