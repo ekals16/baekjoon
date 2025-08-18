@@ -1,5 +1,7 @@
-N = int(input())
-if N==0:
-    print("YONSEI")
+A,B = map(int, input().split())
+if A>B:
+    print(">")
+elif A<B:
+    print("<")
 else:
-    print("Leading the Way to the Future")
+    print("==")
