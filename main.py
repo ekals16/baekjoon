@@ -1,7 +1,11 @@
-A,B = map(int, input().split())
-if A>B:
-    print(">")
-elif A<B:
-    print("<")
-else:
-    print("==")
+A = int(input())
+B = int(input())
+
+ones = B%10
+tens = (B%100)//10
+hundreds = B//100
+
+print( A * ones ) 
+print( A * tens )
+print( A * hundreds )
+print(A*B)
