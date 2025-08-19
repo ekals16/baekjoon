@@ -1,7 +1,6 @@
-A,B,C = map(int, input().split())
+year = int(input())
 
-if B<C:
-    n = A//(C-B)+1
-    print(n)
+if (year%4==0) and ( year%100!=0 or year%400==0 ):
+    print(1)
 else:
-    print(-1)
+    print(0)
