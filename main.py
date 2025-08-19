@@ -1,12 +1,7 @@
-grades = int(input())
+A,B,C = map(int, input().split())
 
-if grades>89:
-    print("A")
-elif grades>79:
-    print("B")
-elif grades>69:
-    print("C")
-elif grades>59:
-    print("D")
+if B<C:
+    n = A//(C-B)+1
+    print(n)
 else:
-    print("F")
+    print(-1)
