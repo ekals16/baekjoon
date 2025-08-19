@@ -1,11 +1,12 @@
-A = int(input())
-B = int(input())
+grades = int(input())
 
-ones = B%10
-tens = (B%100)//10
-hundreds = B//100
-
-print( A * ones ) 
-print( A * tens )
-print( A * hundreds )
-print(A*B)
+if grades>89:
+    print("A")
+elif grades>79:
+    print("B")
+elif grades>69:
+    print("C")
+elif grades>59:
+    print("D")
+else:
+    print("F")
